@@ -7,7 +7,6 @@ async function fetchProperties(city) {
     const password = process.env.RETS_PASSWORD
     const url = process.env.RETS_URL + escape(city)
 
-    console.log(`url: ${url}`, url)
     let response = await fetch(url, {
         method: "get",
         headers: {
@@ -19,7 +18,6 @@ async function fetchProperties(city) {
     })
 
     if (response.ok) {
-        console.log("response ok")
         return response.json()
     } else {
         console.error(`ERROR fetchProperties: ${response.status} ${response.statusText}`)
