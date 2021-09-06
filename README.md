@@ -10,7 +10,7 @@ To remain indendent of `api.simplyrets.com` during development, I used my own [h
 
 ## Configuration
 
-To simplify configuration values, a `.env` file is checked in at the top of the tree.  It is **not** a best practice to include tokens/passwords in a code repository, but the data is fake, already specified in ASSIGNMENT.md, and this is a easy mechanism to centralize configuration.
+To simplify configuration values, a `.env` file is checked in at the top of the tree.  It is **not** a best practice to include tokens/passwords in a code repository, but the data is fake, already specified in PLEASE_READ_FIRST.md, and this is a easy mechanism to centralize configuration.
 
 ## Running
 
